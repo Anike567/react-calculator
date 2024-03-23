@@ -1,0 +1,26 @@
+.container{
+    height: 50vh;
+    width: 24vw;
+}
+.input-container{
+    height: 10vh;
+    width: 24vw;
+    margin: 10px 0;
+}
+.btn-container {
+    height: calc(100vh - 60vh);
+    width: 24vw;
+    display: grid;
+    grid-template-columns: repeat(4, 6vw);
+    grid-template-rows: repeat(5, 10vh);
+}
+
+.input{
+    height: 10vh;
+    width: 23vw;
+    padding: 0 5px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
